@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rolann-federated"
+version = "1.0.0"
+description = "Librería federada ROLANN con cifrado homomórfico y comunicación mqtt"
+requires-python = ">=3.8"
+dependencies = [
+  "torch>=1.12",
+  "torchvision>=0.13",
+  "paho-mqtt>=1.6.1",
+  "tenseal>=0.3.0"
+]
+license = { text = "MIT" }
+authors = [{ name="Iván Pérez Digón"}]
+readme = "README.md"
